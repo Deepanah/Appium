@@ -54,7 +54,7 @@ public class LoginPage {
         }
     }
     
-    
+     //Creating a method to click the submit button
 
     public void enterPassword(WebElement loginbutton) {
 
@@ -73,7 +73,7 @@ public class LoginPage {
             }
         }
     }
-
+ //Creating a method to enter password and pass the value in the method parameter
     public void clickSubmit(WebElement passwordfield, String testpassword) {
 
         int maxRetries = 3;
